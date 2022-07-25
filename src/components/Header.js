@@ -25,6 +25,8 @@ const Header = (props) => {
     });
   }, [userName]);
 
+  console.log(userPhoto);
+
   const handleAuth = () => {
     if (!userName) {
       auth
